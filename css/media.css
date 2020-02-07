@@ -1,0 +1,88 @@
+
+/*--supper small--*/
+@media (max-width:300px) {
+
+
+}
+
+/*--sm--*/
+@media (max-width: 575px) {
+/* poster */
+.poster_text h3{
+ font-size: 1.3rem;
+}
+/* about */
+.about_text h2{
+  font-size: 1.5rem;
+}
+}
+
+
+/*--sm--*/
+
+
+/*--md--*/
+@media (max-width: 765px) {
+
+}
+
+
+/*--md--*/
+
+/*--lg--*/
+@media (max-width: 991px) {
+
+}
+
+
+/*--xl--*/
+@media (max-width: 1199px) {
+
+}
+
+
+
+/* min width */
+/*--supper small--*/
+@media (min-width:301px) {
+  /* poster */
+ .poster_text h3{
+
+ }
+}
+/*--sm--*/
+@media (min-width: 576px) {
+  /* poster */
+  .strict{
+    font-size: 3rem;
+  }
+}
+
+/*--md--*/
+@media (min-width: 766px) {
+  /* poster */
+  .strict{
+    font-size: 4rem;
+  }
+
+
+  form{
+    width: 50%;
+  }
+}
+
+
+/*--md--*/
+
+/*--lg--*/
+@media (min-width: 992px) {
+  /* poster */
+  .strict{
+    font-size: 6rem;
+  }
+}
+
+/*--xl--*/
+@media (min-width: 1200px) {
+  /* poster */
+}

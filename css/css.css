@@ -1,0 +1,226 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i&display=swap');
+body{
+font-family: 'Lato', sans-serif;
+font-size: 16px;
+color: #2d3950;
+}
+a{
+  text-decoration: none!important;
+  list-style: none;
+}
+*{
+    margin: 0;
+    padding: 0;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+.but{
+  color: #fff!important;
+  font-weight: bold!important;
+}
+/* header*/
+.menu *{
+font-weight: bold;
+}
+
+/* poster */
+.poster{
+  background-image: url(../img/poster.jpg);
+  height: 90vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 20vh;
+  background-color: #2f3134;;
+  background-blend-mode: overlay;
+
+}
+#myVideo{
+
+  width: 100%;
+}
+/* .overlay{
+  padding-left: 100%;
+  padding-top: 60vh;
+  background: #15a4fa2e;
+  display: block;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  z-index: 0;
+} */
+.poster_text{
+  /* position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%); */
+  color: #fff;
+
+}
+.strict{
+  text-transform: uppercase;
+  margin: 10px;
+}
+.brack{
+  padding: 1px;
+	width: 60vw;
+	margin: auto;
+	background: #15a4fa;
+	display: block;
+}
+.poster_text h3{
+margin: 10px;
+margin-bottom: 30px;
+}
+.arow{
+
+}
+
+/* about */
+.about{
+
+}
+.about_text{
+  text-align: center;
+  background-color: #F6F9F9!important;
+}
+.about_text h2{
+  margin-bottom: 30px;
+  color:#2d3950;
+  font-size: 4vw;
+  font-weight: 400;
+}
+.about_text p{
+  font-weight: 400;
+  line-height: 1.6;
+  font-size: 16px;
+  color:#999999;
+}
+
+.feature{
+  padding: 15px;
+  float: left;
+  text-align: center;
+}
+.featur-logo{
+  font-size: 48px;
+  color:white;
+  width: 100px;
+  text-shadow: 0 0 2px #191818;
+  height: 100px;
+  line-height: 105px;
+  margin: auto;
+  background: #1e5799;
+  background: -moz-linear-gradient(left, #1e5799 0%, #48baff 0%, #49b9ff 50%, #5fc3ff 50%, #5fc3ff 100%);
+  background: -webkit-linear-gradient(left, #1e5799 0%,#48baff 0%,#49b9ff 50%,#5fc3ff 50%,#5fc3ff 100%);
+  background: linear-gradient(to right,
+  #1e5799 0%,#48baff 0%,#49b9ff 50%,#5fc3ff 50%,
+  #5fc3ff 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', endColorstr='#5fc3ff',GradientType=1 );
+}
+.featur-logo i{}
+.feature h4{
+  color:#2d3950;
+  font-size: 22px;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+.feature p{
+  font-weight: 400;
+  line-height: 1.6;
+  font-size: 20px;
+  color:#999999;
+
+}
+/* gallery */
+.work-heading{
+
+}
+.work-heading h2{
+  margin-bottom: 30px;
+color:
+    #2d3950;
+    font-size: 4vw;
+    font-weight: 400;
+}
+.work-heading p{
+  font-weight: 400;
+  line-height: 1.6;
+  font-size: 16px;
+}
+
+.hoverlay{
+  left: 0;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background:#49b9ffbf;
+  top: 0;
+  opacity: 0;
+  transition: all 0.4s;
+  z-index: 1;
+}
+.hoverlay:hover{
+  opacity: 1;
+}
+.search{
+	position: absolute;
+	top: 50%;
+	transform: translate(-50%,-50%);
+	left: 50%;
+	opacity: 0;
+	transition: all 0.4s;
+}
+.search i{
+  color: white;
+  border: 1px solid #fff;
+	font-size: 30px;
+  padding: 5px;
+  margin: 3px;
+	border-radius: 5px;
+}
+.hoverlay:hover .search {
+    top: 50%;
+    transform: translate(-50%,-50%);
+    left: 50%;
+    opacity: 1;
+}
+/* contact */
+.contact {
+  background-image: url(../img/contact.png);
+  background-blend-mode: overlay;
+  background-color:#3A527B;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  padding: 20vh 0;
+}
+
+
+/* form */
+input[type=text],input[type=email],textarea[type=textarea] {
+  box-sizing: border-box;
+  border: 1px solid #999999;
+  background: transparent;
+  color: white;
+}
+.form-check{
+ color:#999999;
+}
+/* footer */
+footer{
+  color:#999999;
+}
+.footer_content{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1em;
+}
+.copyright{
+  margin: auto 0;
+}
+.social-link{}
+.social-link a{
+    width: 40px;
+}
+.social-link i{}
